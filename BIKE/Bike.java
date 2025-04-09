@@ -4,9 +4,9 @@ public class Bike {
     private int gear;
 
     public Bike() {
-        isOn = false;
-        speed = 0;
-        gear = 1;
+        this.isOn = false;
+        this.speed = 0;
+        this.gear = 1;
     }
 
     public void turnOn() {
