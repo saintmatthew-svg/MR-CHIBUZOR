@@ -15,13 +15,4 @@ public enum GeoPoliticalZone {
     public String[] getStates() {
         return states;
     }
-
-    public int getNumStates() {
-        for(GeoPoliticalZone zone : GeoPoliticalZone.values()) {
-            if(zone.getStates().length == states.length) {
-                return zone.getStates().length;
-            }
-        }
-        return 0;
-    }
 }
